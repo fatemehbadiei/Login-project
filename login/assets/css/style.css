@@ -1,0 +1,134 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+div.body{
+    background-image: url("../images/photo-1596736146509-b468e77527fa.jpeg");
+    height: 100%;
+    background-size: cover;
+}
+div.body>div.body-dot{
+    background-image: url("../images/bg_pattern_1.png");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.body>div.body-dot>div.login{
+    font-family: sans-serif;
+    background-color: #fff;
+    width: 725px;
+    z-index: 10;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+div.body>div.body-dot>div.login>div.image{
+    flex: 1;
+}
+div.body>div.body-dot>div.login>form>div.form{
+    right: 0;
+    display: flex;
+    flex-direction:column ;
+    margin-right:36px ;
+    flex: 1;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-first{
+    display: flex;
+    flex-direction:column ;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-first>h3{
+    color: #626264;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-first>input{
+    padding: 13px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 20px;
+    outline: none;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-first>div.check{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #9b9b9d;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-first>button{
+    padding: 13px 75px;
+    border-radius: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    background-color: #4b74dd;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-second{
+    display: flex;
+    flex-direction:column ;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-second>button.first{
+    background-color: #ea4237;
+    margin-top: 15px;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-second>button.second{
+    background-color: #3a589e;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-second>button{
+    padding: 13px 75px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    color: #fff;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-second>button>i{
+   margin-right: 4px;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-third{
+    display: flex;
+    flex-direction:column ;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 45px;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-third>a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    color: #559ecc;
+}
+div.body>div.body-dot>div.login>form>div.form>div.form-third>a.a-first{
+    margin-bottom: 12px;
+}
+::placeholder{
+    color: #9b9b9d;
+}
